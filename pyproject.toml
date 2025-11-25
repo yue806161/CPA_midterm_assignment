@@ -1,0 +1,10 @@
+[tool.ruff.lint]
+select = ["E", "F", "I", "B","SIM", "A"]
+
+[tool.ruff.format]
+# 使用雙引號 (預設)
+quote-style = "single"
+# 縮排風格 (預設是空格)
+indent-style = "space"
+# 保持魔法逗號 (Magic Trailing Comma) 的功能
+skip-magic-trailing-comma = false
